@@ -1,16 +1,21 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 import profilePicture from "../Assets/profilePicture.jpg";
+import roundProfile from "../Assets/roundProfile.png";
+import { useDarkModeContext } from "../Context/DarkModeContext";
+import {About} from "./About"
 
 export const Navbar = () => {
 
-    const [dark, setDark]=useState(true)
-    console.log('dark mode',dark)
+    const [darkMode, setDarkMode]=useState(true)
+    //const {darkMode, setDarkMode} = useDarkModeContext();
+    
 
   return (
-    <div className="navbar bg-base-100/95 fixed z-50">
+    <div>
+    <div className={`navbar  fixed z-50 ${darkMode ? "bg-base-100/95" : "bg-green-300/95" }`}>
       <div className="navbar-start">
         <div className="dropdown">
-          <label tabIndex={0} className="btn btn-ghost btn-circle">
+          <label tabIndex={0} className={`btn btn-ghost btn-circle ${darkMode ? "text-white" : "text-stone-900"}`}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
@@ -46,13 +51,16 @@ export const Navbar = () => {
         </div>
       </div>
       <div className="navbar-center">
-        <a className="btn btn-ghost normal-case text-xl">GCB</a>
+        <a className={`btn btn-ghost normal-case text-xl ${darkMode ? "text-white":"text-stone-900"}`} href="#about">GCB</a>
       </div>
       <div className="navbar-end">
         <label className="swap swap-rotate mr-8">
           {/*<!-- this hidden checkbox controls the state -->*/}
 
-          <input type="checkbox" onClick={()=>setDark(!dark)} />
+          <input type="checkbox" onClick={()=>setDarkMode(!darkMode)} 
+            
+          />
+      
 
           {/*<!-- sun icon  -->*/}
           <svg
@@ -73,10 +81,14 @@ export const Navbar = () => {
         </label>
         <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
           <div className="w-10 rounded-full">
-            <img src={profilePicture} />
+            <img src={roundProfile} />
           </div>
         </label>
       </div>
+      
     </div>
+        <About darkMode = {darkMode}/>
+    </div>
+  
   );
 };
