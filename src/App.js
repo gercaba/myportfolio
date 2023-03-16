@@ -5,6 +5,7 @@ import {Navbar} from './Componentes/Navbar';
 import {Projects} from './Componentes/Projects';
 import {Skills} from './Componentes/Skills';
 import {Testimonials} from './Componentes/Testimonials';
+import { DarkModeContext, DarkModeContextProvider } from './Context/DarkModeContext';
 
 
 //https://www.freecodecamp.org/espanol/news/como-crear-un-portafolio-web-con-react/
@@ -12,15 +13,15 @@ import {Testimonials} from './Componentes/Testimonials';
 function App() {
   return (
     <main >
-
+<DarkModeContextProvider>
       <Navbar/>
-     
+      <About/>
       <Projects/>
       <Skills/>
       <Testimonials/>
       <Contact/>
       
-
+</DarkModeContextProvider>
 
     </main>
   );

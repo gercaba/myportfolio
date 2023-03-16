@@ -1,22 +1,26 @@
 import React from "react";
 import {projects} from "../Data/Data.js"
 import {BsCodeSlash} from "react-icons/bs"
+import { useDarkModeContext } from "../Context/DarkModeContext.js";
 
 
 
 export const Projects = () =>{
 
+  const {darkMode} = useDarkModeContext()
+
+  console.log('darkMode Projects',darkMode)
     
 
     return(
-        <section id="projects" className="text-gray-400 bg-gray-900 body-font">
+        <section id="projects" className={`text-gray-400 ${darkMode ? "bg-gray-900 body-font" : "bg-green-200"}`}>
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
-          <BsCodeSlash className="mx-auto inline-block w-10 h-40 mb-4" />
-          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-            Aplicaciones que he construido
+          <BsCodeSlash className={`mx-auto inline-block w-10 h-40 mb-4 ${darkMode ? "text-white":"text-stone-900"}`} />
+          <h1 className={`sm:text-4xl font-Lato text-3xl  mb-4 ${darkMode ? "text-white":"text-stone-900"}`}>
+            Developing
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+          <p className={`lg:w-2/3 mx-auto font-Lato leading-relaxed text-base ${darkMode ? "text-white":"text-stone-600"}`}>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
             facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
             fuga dolore.

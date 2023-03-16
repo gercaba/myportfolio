@@ -1,9 +1,11 @@
 import React from "react";
 import profilePictureSmall from "../Assets/profilePicture-small.jpeg"
+import { useDarkModeContext } from "../Context/DarkModeContext";
 
 export const About = (props) =>{
 
-const darkMode = props.darkMode
+
+const {darkMode} = useDarkModeContext();
 
     return(
         <section id="about" className={`${!darkMode && "bg-green-100"}`}>
