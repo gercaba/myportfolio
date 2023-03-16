@@ -8,7 +8,6 @@ export const Contact = () => {
   const {darkMode} = useDarkModeContext();
 
   //Para enviar EmailJS
-  
 
   return (
     <section id="contact" className={`relative flex flex-col justify-items-center ${darkMode ? "bg-gray-900 body-font" : "bg-green-200"}`}>
@@ -43,7 +42,7 @@ export const Contact = () => {
               <h2 className={`title-font font-semibold tracking-widest text-xs ${darkMode ? "text-white":"text-white"}`}>
                 EMAIL
               </h2>
-              <a className={`leading-relaxed ${darkMode ? "text-white":"text-white"}`}>
+              <a href="email" className={`leading-relaxed ${darkMode ? "text-white":"text-white"}`}>
                 gcachab@gmail.com
               </a>
               <h2 className={`title-font font-semibold tracking-widest text-xs mt-4 ${darkMode ? "text-white":"text-white"}`}>

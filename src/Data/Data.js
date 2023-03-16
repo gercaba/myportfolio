@@ -39,6 +39,7 @@ export const projects = [
     "Mailgun",
     "JWT",
     "CSS",
+    "Tailwind",
     "JavaScript",
     "HMTL",
     

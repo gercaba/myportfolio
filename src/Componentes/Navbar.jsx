@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import profilePicture from "../Assets/profilePicture.jpg";
+import React from "react";
 import roundProfile from "../Assets/roundProfile.png";
 import { useDarkModeContext } from "../Context/DarkModeContext";
 
@@ -38,7 +37,9 @@ export const Navbar = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+              className={`menu menu-compact dropdown-content mt-3 p-2 shadow rounded-box w-52 ${
+                darkMode ? "bg-green-300/95 text-stone-900" : "bg-base-200/95"
+              }`}
             >
               <li>
                 <a href="#about">About Me</a>
@@ -94,7 +95,7 @@ export const Navbar = () => {
           </label>
           <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
             <div className="w-10 rounded-full">
-              <img src={roundProfile} />
+              <img src={roundProfile} alt="Profile" />
             </div>
           </label>
         </div>
