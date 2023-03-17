@@ -8,9 +8,7 @@ import { useDarkModeContext } from "../Context/DarkModeContext.js";
 export const Projects = () =>{
 
   const {darkMode} = useDarkModeContext()
-
-  console.log('darkMode Projects',darkMode)
-    
+   
 
     return(
         <section id="projects" className={`text-gray-400 ${darkMode ? "bg-gray-900 body-font" : "bg-green-200"}`}>

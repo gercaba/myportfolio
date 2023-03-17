@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import roundProfile from "../Assets/roundProfile.png";
 import { useDarkModeContext } from "../Context/DarkModeContext";
 
 export const Navbar = () => {
   const { darkMode, setDarkMode } = useDarkModeContext();
+  const {lenguage, setLenguage} = useState('')
+
+  console.log('lenguage', lenguage)
+
+  const handleOnChange = (e)=>{
+    setLenguage(e.target.value);
+  }
 
   return (
     <div>
@@ -98,6 +105,10 @@ export const Navbar = () => {
               <img src={roundProfile} alt="Profile" />
             </div>
           </label>
+          <select className="select font-Lato w-20 ml-6 max-w-xs border-none text-white" defaultValue = 'ES' onChange={handleOnChange}>
+            <option value="ES">ES</option>
+            <option value="EN">EN</option>
+          </select>
         </div>
       </div>
     </div>

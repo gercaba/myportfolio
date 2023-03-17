@@ -1,8 +1,10 @@
 import React from "react";
 import profilePictureSmall from "../Assets/profilePicture-small.jpeg";
 import { useDarkModeContext } from "../Context/DarkModeContext";
-import gitLogo from "../Assets/Icons/gitLogo.png";
-import linkedinLogo from "../Assets/Icons/linkedinLogo.png";
+import linkedinLogoBlack from "../Assets/Icons/linkedinBlack.png";
+import linkedinLogoWhite from "../Assets/Icons/linkedinWhite.png";
+import gitLogoBlack from "../Assets/Icons/gitBlack.png";
+import gitLogoWhite from "../Assets/Icons/gitWhite.png";
 
 export const About = (props) => {
   const { darkMode } = useDarkModeContext();
@@ -41,14 +43,58 @@ export const About = (props) => {
           <div className="flex justify-center justify-items-center">
             <a
               href="#projects"
-              className={`inline-flex font-Lato border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg ${darkMode ? "bg-green-300 text-stone-900" :"bg-gray-800 text-white"}`}
+              className={`inline-flex font-Lato border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg ${
+                darkMode
+                  ? "bg-green-300 text-stone-900"
+                  : "bg-gray-800 text-white"
+              }`}
             >
               Projects
             </a>
           </div>
-          <div className="flex flex-row justify-items-center">
-            <img src={gitLogo} className="h-10 mt-5 mr-10" />
-            <img src={linkedinLogo} className="h-10 mt-5" />
+          <div className="flex flex-row justify-around align-middle mt-6">
+            <div className="">
+              <a
+                href="https://github.com/gercaba"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {darkMode ? (
+                  <img
+                    alt="logo git"
+                    src={gitLogoWhite}
+                    className="h-10 mr-6 transform hover:-translate-y-1 hover:scale-130 "
+                  />
+                ) : (
+                  <img
+                    alt="logo git"
+                    src={gitLogoBlack}
+                    className="h-10  mr-6 hover:-translate-y-1 hover:scale-130 "
+                  />
+                )}
+              </a>
+            </div>
+            <a
+              href="https://www.linkedin.com/in/gercaba/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div>
+                {darkMode ? (
+                  <img
+                    alt="logo linkedin"
+                    src={linkedinLogoWhite}
+                    className="h-10 hover:-translate-y-1 hover:scale-130 "
+                  />
+                ) : (
+                  <img
+                    alt="logo linkedin"
+                    src={linkedinLogoBlack}
+                    className="h-10 hover:-translate-y-1 hover:scale-130 "
+                  />
+                )}
+              </div>
+            </a>
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
