@@ -29,6 +29,8 @@ export const Projects = () =>{
             <a
               href={project.link}
               key={project.image}
+              target="_blank"
+              rel="noreferrer"
               className="sm:w-1/2 w-100 p-4">
               <div className="flex relative">
                 <img
