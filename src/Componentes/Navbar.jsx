@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import roundProfile from "../Assets/roundProfile.png";
+import roundProfile from "../Assets/roundProfileSmall.png";
 import { useDarkModeContext } from "../Context/DarkModeContext";
 
 export const Navbar = () => {
