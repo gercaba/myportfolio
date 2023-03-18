@@ -1,13 +1,14 @@
 import React from "react";
 import profilePictureSmall from "../Assets/profilePicture-small.jpeg";
-import { useDarkModeContext } from "../Context/DarkModeContext";
+import { useGeneralContext } from "../Context/GeneralContext";
 import linkedinLogoBlack from "../Assets/Icons/linkedinBlack.png";
 import linkedinLogoWhite from "../Assets/Icons/linkedinWhite.png";
 import gitLogoBlack from "../Assets/Icons/gitBlack.png";
 import gitLogoWhite from "../Assets/Icons/gitWhite.png";
 
 export const About = (props) => {
-  const { darkMode } = useDarkModeContext();
+  const { darkMode, lenguage } = useGeneralContext();
+  console.log('lenguage', lenguage)
 
   return (
     <section id="about" className={`${!darkMode && "bg-green-100"}`}>
@@ -22,7 +23,7 @@ export const About = (props) => {
               darkMode ? "text-white" : "text-stone-900"
             }`}
           >
-            Hola, soy Germán
+            {lenguage === 'ES' ? "Hola, soy Germán":"Hello, my name is Germán"}
           </h1>
           <h2
             className={`title-font font-Lato sm:text-2xl text-3xl mb-4 font-medium  ${
@@ -30,7 +31,10 @@ export const About = (props) => {
             }`}
           >
             <br className="hidden lg:inline-block" />
-            Just starting but hoping it never ends
+
+            {lenguage === 'ES' ? "Junior Full Stack Developer":"Junior Full Stack Developer"}
+
+            
           </h2>
 
           <p
@@ -38,7 +42,7 @@ export const About = (props) => {
               darkMode ? "text-white" : "text-stone-600"
             }`}
           >
-            Just starting but hoping it never ends
+              {lenguage === 'ES' ? "Empezando pero esperando que nunca se acabe":"Just starting but hoping it never ends"}
           </p>
           <div className="flex justify-center justify-items-center">
             <a
@@ -49,7 +53,7 @@ export const About = (props) => {
                   : "bg-gray-800 text-white"
               }`}
             >
-              Projects
+             {lenguage === 'ES' ? "Proyectos":"Projects"}
             </a>
           </div>
           <div className="flex flex-row justify-around align-middle mt-6">

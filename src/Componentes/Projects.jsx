@@ -1,13 +1,13 @@
 import React from "react";
 import {projects} from "../Data/Data.js"
 import {BsCodeSlash} from "react-icons/bs"
-import { useDarkModeContext } from "../Context/DarkModeContext.js";
+import { useGeneralContext } from "../Context/GeneralContext.js";
 
 
 
 export const Projects = () =>{
 
-  const {darkMode} = useDarkModeContext()
+  const {darkMode, lenguage} = useGeneralContext()
    
 
     return(
@@ -16,12 +16,13 @@ export const Projects = () =>{
         <div className="flex flex-col w-full mb-20">
           <BsCodeSlash className={`mx-auto inline-block w-10 h-40 mb-4 ${darkMode ? "text-white":"text-stone-900"}`} />
           <h1 className={`sm:text-4xl font-Lato text-3xl  mb-4 ${darkMode ? "text-white":"text-stone-900"}`}>
-            Developing
+            {lenguage === 'ES' ? "Proyectos":"Projects"}
           </h1>
           <p className={`lg:w-2/3 mx-auto font-Lato leading-relaxed text-base ${darkMode ? "text-white":"text-stone-600"}`}>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+          {lenguage === 'ES' ?
+           "Durante el BootCamp realizamos diferentes retos de corto alcance en tiempo que permitieron afizanzar los conocimientos para poder realizar el proyecto final que es la realización de un Clon de Slack."
+           :
+           "During the BootCamp we carried out different short-range challenges in time that allowed us to consolidate our knowledge to be able to carry out the final project, which is the creation of a Slack Clone."}
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
@@ -35,8 +36,9 @@ export const Projects = () =>{
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center"
+                  className="absolute inset-0 w-fit h-full object-cover object-center"
                   src={project.image}
+                  
                   
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">

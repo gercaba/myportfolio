@@ -1,16 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 import roundProfile from "../Assets/roundProfileSmall.png";
-import { useDarkModeContext } from "../Context/DarkModeContext";
+import { useGeneralContext } from "../Context/GeneralContext";
 
 export const Navbar = () => {
-  const { darkMode, setDarkMode } = useDarkModeContext();
-  const {lenguage, setLenguage} = useState('')
+  const { darkMode, setDarkMode, setLenguage, lenguage } = useGeneralContext();
 
-  console.log('lenguage', lenguage)
-
-  const handleOnChange = (e)=>{
+  const handleOnChange = (e) => {
     setLenguage(e.target.value);
-  }
+  };
 
   return (
     <div>
@@ -49,16 +46,26 @@ export const Navbar = () => {
               }`}
             >
               <li>
-                <a href="#about">About Me</a>
+                <a href="#about">
+                  {lenguage === "ES" ? "Sobre mí" : "About Me"}
+                </a>
               </li>
               <li>
-                <a href="#projects">Projects</a>
+                <a href="#projects">
+                  {lenguage === "ES" ? "Proyectos" : "Projects"}
+                </a>
               </li>
               <li>
-                <a href="#skills">Skills</a>
+                <a href="#skills">
+                  {lenguage === "ES" ? "Habilidades" : "Skills"}
+                </a>
               </li>
               <li>
-                <a href="#contact">Location & Contact</a>
+                <a href="#contact">
+                  {lenguage === "ES"
+                    ? "Localización & Contacto"
+                    : "Location & Contact"}
+                </a>
               </li>
             </ul>
           </div>
@@ -105,7 +112,11 @@ export const Navbar = () => {
               <img src={roundProfile} alt="Profile" />
             </div>
           </label>
-          <select className="select font-Lato w-20 ml-6 max-w-xs border-none text-white" defaultValue = 'ES' onChange={handleOnChange}>
+          <select
+            className="select font-Lato w-20 ml-6 max-w-xs border-none text-white"
+            defaultValue="EN"
+            onChange={handleOnChange}
+          >
             <option value="ES">ES</option>
             <option value="EN">EN</option>
           </select>

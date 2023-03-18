@@ -1,11 +1,11 @@
 import React from "react";
 import {MdOutlineContacts} from "react-icons/md";
-import { useDarkModeContext } from "../Context/DarkModeContext";
+import { useGeneralContext } from "../Context/GeneralContext";
 
 export const Contact = () => {
 
 
-  const {darkMode} = useDarkModeContext();
+  const {darkMode, lenguage} = useGeneralContext();
 
   //Para enviar EmailJS
 
@@ -31,11 +31,11 @@ export const Contact = () => {
         <div className={`relative flex flex-wrap py-6 font-Lato rounded shadow-md ${darkMode ? "bg-[#2A303C]" :"bg-[#1F2937]"}`}>
             <div className="lg:w-1/2 px-6">
               <h2 className={`title-font font-semibold tracking-widest text-xs ${darkMode ? "text-white":"text-white"}`}>
-                LOCATION
+              {lenguage === 'ES' ? "UBICACIÓN":"LOCATION"}
               </h2>
               <p className={`mt-1 ${darkMode ? "text-white":"text-white"}`}>
                 Barcelona <br />
-                Cataluña, España
+                {lenguage === 'ES' ? "Cataluña, España":"Catalonia, Spain"}
               </p>
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
@@ -45,10 +45,7 @@ export const Contact = () => {
               <a href="email" className={`leading-relaxed ${darkMode ? "text-white":"text-white"}`}>
                 gcachab@gmail.com
               </a>
-              <h2 className={`title-font font-semibold tracking-widest text-xs mt-4 ${darkMode ? "text-white":"text-white"}`}>
-                PHONE
-              </h2>
-              <p className={`leading-relaxed ${darkMode ? "text-white":"text-white"}`}>+34 630 27 58 71</p>
+              
             </div>
           </div>
         
