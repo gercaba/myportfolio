@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.d2bde8da.css",
-    "main.js": "/static/js/main.3e85e555.js",
-    "static/js/787.1f11dfe9.chunk.js": "/static/js/787.1f11dfe9.chunk.js",
-    "static/media/portfolioPicture.jpg": "/static/media/portfolioPicture.38f80b43a103fccca1b4.jpg",
-    "static/media/profilePicture-small.jpeg": "/static/media/profilePicture-small.dd1c638c70a098f96f6c.jpeg",
-    "static/media/chatPage.png": "/static/media/chatPage.224f9b5d1fd59f0a8c4e.png",
-    "static/media/calculatorHTML.png": "/static/media/calculatorHTML.183e2c3b18c5bdb28163.png",
-    "static/media/roundProfileSmall.png": "/static/media/roundProfileSmall.a133b6bf52e6ac0b46f4.png",
-    "static/media/html-logo.png": "/static/media/html-logo.f3aa7827cd5160f3fc1c.png",
-    "static/media/moongose-logo.png": "/static/media/moongose-logo.998152e4bc5fdd366c2c.png",
-    "static/media/react-logo.png": "/static/media/react-logo.80045de70681e3171446.png",
-    "static/media/tailwind-logo.png": "/static/media/tailwind-logo.deaf71ffef7a2f12bb8f.png",
-    "static/media/js-logo.png": "/static/media/js-logo.1707d09a3f6f31bb97e8.png",
-    "static/media/node-logo.png": "/static/media/node-logo.31c0e97d5776c294d370.png",
-    "static/media/express-logo.png": "/static/media/express-logo.39a0f4c3d981885c64f8.png",
-    "static/media/socket-logo.png": "/static/media/socket-logo.07be0531efc928c7278d.png",
-    "index.html": "/index.html",
-    "main.d2bde8da.css.map": "/static/css/main.d2bde8da.css.map",
-    "main.3e85e555.js.map": "/static/js/main.3e85e555.js.map",
-    "787.1f11dfe9.chunk.js.map": "/static/js/787.1f11dfe9.chunk.js.map"
+    "main.css": "/myportfolio/static/css/main.d2bde8da.css",
+    "main.js": "/myportfolio/static/js/main.5d798540.js",
+    "static/js/787.1f11dfe9.chunk.js": "/myportfolio/static/js/787.1f11dfe9.chunk.js",
+    "static/media/portfolioPicture.jpg": "/myportfolio/static/media/portfolioPicture.38f80b43a103fccca1b4.jpg",
+    "static/media/profilePicture-small.jpeg": "/myportfolio/static/media/profilePicture-small.dd1c638c70a098f96f6c.jpeg",
+    "static/media/chatPage.png": "/myportfolio/static/media/chatPage.224f9b5d1fd59f0a8c4e.png",
+    "static/media/calculatorHTML.png": "/myportfolio/static/media/calculatorHTML.183e2c3b18c5bdb28163.png",
+    "static/media/roundProfileSmall.png": "/myportfolio/static/media/roundProfileSmall.a133b6bf52e6ac0b46f4.png",
+    "static/media/html-logo.png": "/myportfolio/static/media/html-logo.f3aa7827cd5160f3fc1c.png",
+    "static/media/moongose-logo.png": "/myportfolio/static/media/moongose-logo.998152e4bc5fdd366c2c.png",
+    "static/media/react-logo.png": "/myportfolio/static/media/react-logo.80045de70681e3171446.png",
+    "static/media/tailwind-logo.png": "/myportfolio/static/media/tailwind-logo.deaf71ffef7a2f12bb8f.png",
+    "static/media/js-logo.png": "/myportfolio/static/media/js-logo.1707d09a3f6f31bb97e8.png",
+    "static/media/node-logo.png": "/myportfolio/static/media/node-logo.31c0e97d5776c294d370.png",
+    "static/media/express-logo.png": "/myportfolio/static/media/express-logo.39a0f4c3d981885c64f8.png",
+    "static/media/socket-logo.png": "/myportfolio/static/media/socket-logo.07be0531efc928c7278d.png",
+    "index.html": "/myportfolio/index.html",
+    "main.d2bde8da.css.map": "/myportfolio/static/css/main.d2bde8da.css.map",
+    "main.5d798540.js.map": "/myportfolio/static/js/main.5d798540.js.map",
+    "787.1f11dfe9.chunk.js.map": "/myportfolio/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d2bde8da.css",
-    "static/js/main.3e85e555.js"
+    "static/js/main.5d798540.js"
   ]
 }
