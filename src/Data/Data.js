@@ -10,6 +10,7 @@ import socketLogo from "../Assets/Logos/socket-logo.png"
 import expressLogo from "../Assets/Logos/express-logo.png"
 import moongoseLogo from "../Assets/Logos/moongose-logo.png"
 import tailwindLogo from "../Assets/Logos/tailwind-logo.png"
+import dockerLogo from "../Assets/Logos/docker-logo.png"
 
 export const projects = [
     {
@@ -95,5 +96,9 @@ export const projects = [
     {
       title:"HMTL",
       logo:hmtlLogo
-    },   
+    },
+    {
+      title:"Docker",
+      logo:dockerLogo
+    },     
   ]
