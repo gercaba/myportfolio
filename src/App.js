@@ -17,7 +17,6 @@ function App() {
       <About/>
       <Projects/>
       <Skills/>
-      
       <Contact/>
       
 </GeneralContextProvider>
