@@ -43,12 +43,12 @@ export const Projects = () =>{
                 />
                 <div className={`px-8 py-10 relative z-10 w-fit border-4 border-none ${darkMode ? "bg-[#2A303C]" :"bg-[#1F2937]"}`}>
                   <h2 className="tracking-widest text-sm title-font font-Lato font-medium text-green-400 mb-1">
-                    {project.subtitle}
+                  {lenguage==='EN' ? project.subtitle : project.subtitleES}
                   </h2>
                   <h1 className="title-font font-Lato text-lg font-medium text-white mb-3">
                     {project.title}
                   </h1>
-                  <p className="leading-relaxed font-Lato">{project.description}</p>
+                  <p className="leading-relaxed font-Lato">{lenguage==='EN' ? project.description : project.descriptionES}</p>
                 </div>
               </div>
             </a>
