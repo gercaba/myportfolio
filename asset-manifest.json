@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.d2bde8da.css",
-    "main.js": "/myportfolio/static/js/main.7fddc99d.js",
+    "main.css": "/myportfolio/static/css/main.61792cfd.css",
+    "main.js": "/myportfolio/static/js/main.73e8770c.js",
     "static/js/787.1f11dfe9.chunk.js": "/myportfolio/static/js/787.1f11dfe9.chunk.js",
     "static/media/portfolioPicture.jpg": "/myportfolio/static/media/portfolioPicture.38f80b43a103fccca1b4.jpg",
     "static/media/profilePicture-small.jpeg": "/myportfolio/static/media/profilePicture-small.dd1c638c70a098f96f6c.jpeg",
+    "static/media/German_CV_ES_2023.png": "/myportfolio/static/media/German_CV_ES_2023.0f394c0336880277da99.png",
     "static/media/chatPage.png": "/myportfolio/static/media/chatPage.224f9b5d1fd59f0a8c4e.png",
     "static/media/calculatorHTML.png": "/myportfolio/static/media/calculatorHTML.183e2c3b18c5bdb28163.png",
     "static/media/roundProfileSmall.png": "/myportfolio/static/media/roundProfileSmall.a133b6bf52e6ac0b46f4.png",
@@ -18,12 +19,12 @@
     "static/media/express-logo.png": "/myportfolio/static/media/express-logo.39a0f4c3d981885c64f8.png",
     "static/media/socket-logo.png": "/myportfolio/static/media/socket-logo.07be0531efc928c7278d.png",
     "index.html": "/myportfolio/index.html",
-    "main.d2bde8da.css.map": "/myportfolio/static/css/main.d2bde8da.css.map",
-    "main.7fddc99d.js.map": "/myportfolio/static/js/main.7fddc99d.js.map",
+    "main.61792cfd.css.map": "/myportfolio/static/css/main.61792cfd.css.map",
+    "main.73e8770c.js.map": "/myportfolio/static/js/main.73e8770c.js.map",
     "787.1f11dfe9.chunk.js.map": "/myportfolio/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2bde8da.css",
-    "static/js/main.7fddc99d.js"
+    "static/css/main.61792cfd.css",
+    "static/js/main.73e8770c.js"
   ]
 }
