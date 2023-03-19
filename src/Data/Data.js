@@ -29,7 +29,7 @@ export const projects = [
       description:"Calculator developed in HTML for learning eventListeners and their subsequent simplification in React",
       descriptionES:"Calculadora desarrollada en HTML para aprender el uso de los eventListeners y su futura simplificación en React",
       image:calculatorHTML,
-      link: "https://github.com/nds-fsd/reto-4-react-calculator-gercaba.git",
+      link: "https://github.com/nds-fsd/reto-3-calculadora-simple-gercaba",
     },
     {
       title: "Portfolio",
