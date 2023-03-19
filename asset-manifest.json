@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.d2bde8da.css",
-    "main.js": "/myportfolio/static/js/main.5d798540.js",
+    "main.js": "/myportfolio/static/js/main.fe82da4d.js",
     "static/js/787.1f11dfe9.chunk.js": "/myportfolio/static/js/787.1f11dfe9.chunk.js",
     "static/media/portfolioPicture.jpg": "/myportfolio/static/media/portfolioPicture.38f80b43a103fccca1b4.jpg",
     "static/media/profilePicture-small.jpeg": "/myportfolio/static/media/profilePicture-small.dd1c638c70a098f96f6c.jpeg",
@@ -14,15 +14,16 @@
     "static/media/tailwind-logo.png": "/myportfolio/static/media/tailwind-logo.deaf71ffef7a2f12bb8f.png",
     "static/media/js-logo.png": "/myportfolio/static/media/js-logo.1707d09a3f6f31bb97e8.png",
     "static/media/node-logo.png": "/myportfolio/static/media/node-logo.31c0e97d5776c294d370.png",
+    "static/media/docker-logo.png": "/myportfolio/static/media/docker-logo.c1f953a3ead577c05d04.png",
     "static/media/express-logo.png": "/myportfolio/static/media/express-logo.39a0f4c3d981885c64f8.png",
     "static/media/socket-logo.png": "/myportfolio/static/media/socket-logo.07be0531efc928c7278d.png",
     "index.html": "/myportfolio/index.html",
     "main.d2bde8da.css.map": "/myportfolio/static/css/main.d2bde8da.css.map",
-    "main.5d798540.js.map": "/myportfolio/static/js/main.5d798540.js.map",
+    "main.fe82da4d.js.map": "/myportfolio/static/js/main.fe82da4d.js.map",
     "787.1f11dfe9.chunk.js.map": "/myportfolio/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d2bde8da.css",
-    "static/js/main.5d798540.js"
+    "static/js/main.fe82da4d.js"
   ]
 }
