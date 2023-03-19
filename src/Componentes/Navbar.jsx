@@ -70,9 +70,9 @@ export const Navbar = () => {
             </ul>
           </div>
         </div>
-        <div className="navbar-center">
+        <div className="navbar-center hidden sm:block">
           <a
-            className={`btn btn-ghost normal-case text-3xl  ${
+            className={`btn btn-ghost font-Lato normal-case text-3xl ${
               darkMode ? "text-white" : "text-stone-900"
             }`}
             href="#about"
