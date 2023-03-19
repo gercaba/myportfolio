@@ -1,6 +1,7 @@
 import React from 'react';
 
 const DownloadButton = ({ file }) => {
+
   const handleClick = () => {
     const link = document.createElement('a');
     link.href = file;
@@ -9,7 +10,8 @@ const DownloadButton = ({ file }) => {
   };
 
   return (
-    <button className='btn btn-sm font-normal normal-case font-Lato mt-4' onClick={handleClick}>Download</button>
+    <button className={`btn btn-sm font-normal normal-case font-Lato mt-4`} 
+    onClick={handleClick}>Download</button>
   );
 };
 

@@ -55,7 +55,7 @@ export const About = (props) => {
             <div className="flex justify-center justify-items-center mr-6">
               <a
                 href="#projects"
-                className={`inline-flex font-Lato border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg ${
+                className={`btn inline-flex normal-case font-normal font-Lato border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg ${
                   darkMode
                     ? "bg-green-300 text-stone-900"
                     : "bg-gray-800 text-white"
@@ -66,15 +66,14 @@ export const About = (props) => {
             </div>
             <div className="flex justify-center justify-items-center">
               <label
-                htmlFor="my-modal-3"
-                href="#projects"
+                htmlFor="my-modal-3"  
                 className={`btn inline-flex font-Lato normal-case font-normal border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white text-lg rounded ${
                   darkMode
                     ? "bg-green-300 text-stone-900"
                     : "bg-gray-800 text-white"
                 }`}
               >
-                {lenguage === "ES" ? "Abrir CV" : "View CV"}
+                {lenguage === "ES" ? "Ver CV" : "View CV"}
                 
                 </label>
 
