@@ -5,10 +5,11 @@ import linkedinLogoBlack from "../Assets/Icons/linkedinBlack.png";
 import linkedinLogoWhite from "../Assets/Icons/linkedinWhite.png";
 import gitLogoBlack from "../Assets/Icons/gitBlack.png";
 import gitLogoWhite from "../Assets/Icons/gitWhite.png";
+import mycv from "../Assets/German_CV_ES_2023.png"
 
 export const About = (props) => {
   const { darkMode, lenguage } = useGeneralContext();
-  console.log('lenguage', lenguage)
+  console.log("lenguage", lenguage);
 
   return (
     <section id="about" className={`${!darkMode && "bg-green-100"}`}>
@@ -23,7 +24,9 @@ export const About = (props) => {
               darkMode ? "text-white" : "text-stone-900"
             }`}
           >
-            {lenguage === 'ES' ? "Hola, soy Germán":"Hello, my name is Germán"}
+            {lenguage === "ES"
+              ? "Hola, soy Germán"
+              : "Hello, my name is Germán"}
           </h1>
           <h2
             className={`title-font font-Lato sm:text-2xl text-3xl mb-4 font-medium  ${
@@ -32,9 +35,9 @@ export const About = (props) => {
           >
             <br className="hidden lg:inline-block" />
 
-            {lenguage === 'ES' ? "Junior Full Stack Developer":"Junior Full Stack Developer"}
-
-            
+            {lenguage === "ES"
+              ? "Junior Full Stack Developer"
+              : "Junior Full Stack Developer"}
           </h2>
 
           <p
@@ -42,19 +45,58 @@ export const About = (props) => {
               darkMode ? "text-white" : "text-stone-600"
             }`}
           >
-              {lenguage === 'ES' ? "Empezando pero esperando que nunca se acabe":"Just starting but hoping it never ends"}
+            {lenguage === "ES"
+              ? "Empezando pero esperando que nunca se acabe"
+              : "Just starting but hoping it never ends"}
           </p>
-          <div className="flex justify-center justify-items-center">
-            <a
-              href="#projects"
-              className={`inline-flex font-Lato border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg ${
-                darkMode
-                  ? "bg-green-300 text-stone-900"
-                  : "bg-gray-800 text-white"
-              }`}
-            >
-             {lenguage === 'ES' ? "Proyectos":"Projects"}
-            </a>
+          <div className="flex flex-row">
+            <div className="flex justify-center justify-items-center mr-6">
+              <a
+                href="#projects"
+                className={`inline-flex font-Lato border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg ${
+                  darkMode
+                    ? "bg-green-300 text-stone-900"
+                    : "bg-gray-800 text-white"
+                }`}
+              >
+                {lenguage === "ES" ? "Proyectos" : "Projects"}
+              </a>
+            </div>
+            <div className="flex justify-center justify-items-center">
+              <label
+                htmlFor="my-modal-3"
+                href="#projects"
+                className={`btn inline-flex font-Lato normal-case font-normal border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white text-lg rounded ${
+                  darkMode
+                    ? "bg-green-300 text-stone-900"
+                    : "bg-gray-800 text-white"
+                }`}
+              >
+                {lenguage === "ES" ? "Abrir CV" : "View CV"}
+                
+                </label>
+
+                {/* Put this part before </body> tag */}
+                <input
+                  type="checkbox"
+                  id="my-modal-3"
+                  className="modal-toggle"
+                />
+                <div className="modal">
+                  <div className="modal-box relative w-full overflow-hidden">
+                    <label
+                      htmlFor="my-modal-3"
+                      className="btn btn-sm btn-circle absolute right-2 top-2"
+                    >
+                      ✕
+                    </label>
+                   
+                      <img alt='my cv' src={mycv}/>
+                    
+                  </div>
+                </div>
+            
+            </div>
           </div>
           <div className="flex flex-row justify-around align-middle mt-6">
             <div className="">
