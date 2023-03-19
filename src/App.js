@@ -1,9 +1,9 @@
 import './App.css';
-import {About} from './Componentes/About';
-import {Contact} from './Componentes/Contact';
-import {Navbar} from './Componentes/Navbar';
-import {Projects} from './Componentes/Projects';
-import {Skills} from './Componentes/Skills';
+import {About} from './Components/About';
+import {Contact} from './Components/Contact';
+import {Navbar} from './Components/Navbar';
+import {Projects} from './Components/Projects';
+import {Skills} from './Components/Skills';
 import {GeneralContextProvider } from './Context/GeneralContext';
 
 
