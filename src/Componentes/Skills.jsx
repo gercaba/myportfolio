@@ -10,9 +10,9 @@ export const Skills = () =>{
 
     return(
         <section id="skills" className={`${!darkMode && "bg-green-100"}`}>
-        <div className="container px-5 py-10 mx-auto">
+        <div className="container px-5 pb-10 mx-auto">
           <div className="text-center mb-20">
-            <CiMedal className={`w-10 h-40 inline-block mb-4 ${darkMode ? "text-white":"text-stone-900"}`}  />
+            <CiMedal className={`w-10 h-32 inline-block  ${darkMode ? "text-white":"text-stone-900"}`}  />
             <h1 className={`sm:text-4xl text-3xl font-Lato font-medium title-font mb-4 ${darkMode ? "text-white":"text-stone-900"}`}>
             {lenguage === 'ES' ? "Habilidades y tecnologías":"Skills & Tech"}
             </h1>

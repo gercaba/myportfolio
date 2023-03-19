@@ -11,8 +11,8 @@ export const Contact = () => {
 
   return (
     <section id="contact" className={`relative flex flex-col justify-items-center ${darkMode ? "bg-gray-900 body-font" : "bg-green-200"}`}>
-          <MdOutlineContacts className={`mx-auto inline-block w-10 h-40 mb-4 ${darkMode ? "text-white":"text-stone-900"}`} />
-      <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
+          <MdOutlineContacts className={`mx-auto inline-block w-10 h-32 mb-4 ${darkMode ? "text-white":"text-stone-900"}`} />
+      <div className="container px-5 pb-10 mx-auto flex sm:flex-nowrap flex-wrap">
       
         <div className={`lg:w-2/3 md:w-1/2 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative bg-gray-900" :"bg-green-200`}>
           <iframe
