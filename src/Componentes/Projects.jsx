@@ -41,7 +41,7 @@ export const Projects = () =>{
                   
                   
                 />
-                <div className="px-8 py-10 relative z-10 w-fit border-4 border-gray-800 bg-gray-900">
+                <div className={`px-8 py-10 relative z-10 w-fit border-4 border-none ${darkMode ? "bg-[#2A303C]" :"bg-[#1F2937]"}`}>
                   <h2 className="tracking-widest text-sm title-font font-Lato font-medium text-green-400 mb-1">
                     {project.subtitle}
                   </h2>
