@@ -4,7 +4,7 @@ import React from "react";
 export const GeneralContext = createContext();
 
 export const GeneralContextProvider = (props) => {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
   const [lenguage, setLenguage] = useState('EN')
 
   const value = {
