@@ -6,6 +6,8 @@ import linkedinLogoWhite from "../Assets/Icons/linkedinWhite.png";
 import gitLogoBlack from "../Assets/Icons/gitBlack.png";
 import gitLogoWhite from "../Assets/Icons/gitWhite.png";
 import mycv from "../Assets/German_CV_ES_2023.png"
+import cvFile from "../Assets/German_CV_ES_2023.pdf"
+import DownloadButton from "./DownloadButton";
 
 export const About = (props) => {
   const { darkMode, lenguage } = useGeneralContext();
@@ -83,15 +85,16 @@ export const About = (props) => {
                   className="modal-toggle"
                 />
                 <div className="modal">
-                  <div className="modal-box relative w-full overflow-hidden">
+                  <div className="modal-box relative w-full">
                     <label
                       htmlFor="my-modal-3"
                       className="btn btn-sm btn-circle absolute right-2 top-2"
                     >
                       ✕
                     </label>
-                   
+                     
                       <img alt='my cv' src={mycv}/>
+                      <DownloadButton file={cvFile}/>
                     
                   </div>
                 </div>
