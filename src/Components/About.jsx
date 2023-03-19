@@ -5,8 +5,8 @@ import linkedinLogoBlack from "../Assets/Icons/linkedinBlack.png";
 import linkedinLogoWhite from "../Assets/Icons/linkedinWhite.png";
 import gitLogoBlack from "../Assets/Icons/gitBlack.png";
 import gitLogoWhite from "../Assets/Icons/gitWhite.png";
-import mycv from "../Assets/Profile/German_CV_ES_2023.png"
-import cvFile from "../Assets/Profile/German_CV_ES_2023.pdf"
+import mycv from "../Assets/Profile/German_CV_ES_2023_2.png"
+import cvFile from "../Assets/Profile/German_CV_ES_2023_2.pdf"
 import DownloadButton from "./DownloadButton";
 
 export const About = (props) => {
