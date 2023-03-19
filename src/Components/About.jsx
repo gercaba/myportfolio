@@ -1,12 +1,12 @@
 import React from "react";
-import profilePictureSmall from "../Assets/profilePicture-small.jpeg";
+import profilePictureSmall from "../Assets/Profile/profilePicture-small.jpeg";
 import { useGeneralContext } from "../Context/GeneralContext";
 import linkedinLogoBlack from "../Assets/Icons/linkedinBlack.png";
 import linkedinLogoWhite from "../Assets/Icons/linkedinWhite.png";
 import gitLogoBlack from "../Assets/Icons/gitBlack.png";
 import gitLogoWhite from "../Assets/Icons/gitWhite.png";
-import mycv from "../Assets/German_CV_ES_2023.png"
-import cvFile from "../Assets/German_CV_ES_2023.pdf"
+import mycv from "../Assets/Profile/German_CV_ES_2023.png"
+import cvFile from "../Assets/Profile/German_CV_ES_2023.pdf"
 import DownloadButton from "./DownloadButton";
 
 export const About = (props) => {

@@ -1,5 +1,5 @@
 import React from "react";
-import roundProfile from "../Assets/roundProfileSmall.png";
+import roundProfile from "../Assets/Profile/roundProfileSmall.png";
 import { useGeneralContext } from "../Context/GeneralContext";
 
 export const Navbar = () => {
