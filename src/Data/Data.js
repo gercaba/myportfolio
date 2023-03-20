@@ -11,6 +11,7 @@ import expressLogo from "../Assets/Logos/express-logo.png"
 import moongoseLogo from "../Assets/Logos/moongose-logo.png"
 import tailwindLogo from "../Assets/Logos/tailwind-logo.png"
 import dockerLogo from "../Assets/Logos/docker-logo.png"
+import todo from "../Assets/Projects/todo.png"
 
 export const projects = [
     {
@@ -40,6 +41,16 @@ export const projects = [
       descriptionES:"Desarrollando haciendo uso de un Contexto para el idioma y el tema oscuro.",
       image: portfolioPicture,
       link: "https://github.com/gercaba/portofolio",
+    },
+    {
+      title: "Todo App",
+      subtitle: "Backend + Frontend",
+      subtitleES:"Backend + Frontend",
+      description:
+      "Developed as a challenge during BootCamp that includes end-to-end development. Necessary to pull up Docker.",
+      descriptionES:"Desarrollada como reto durante el BootCamp que incluye un desarrollo integral. Necesario levantar el Docker.",
+      image: todo,
+      link: "https://github.com/gercaba/todo",
     },
    
   ];
