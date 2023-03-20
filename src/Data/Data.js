@@ -52,8 +52,7 @@ export const projects = [
       image: todo,
       link: "https://github.com/gercaba/todo",
     },
-   
-  ];
+   ];
 
 
   export const skills = [

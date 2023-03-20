@@ -2,4 +2,4 @@
 
 Portofolio based on React using context to manage the lenguage and the dark mode.
 
-The goal is to desing a simple portfolio but strongy usefull.
+The objective is to design an attractive but highly functional portfolio.
