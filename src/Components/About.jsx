@@ -7,6 +7,8 @@ import gitLogoBlack from "../Assets/Icons/gitBlack.png";
 import gitLogoWhite from "../Assets/Icons/gitWhite.png";
 import mycv from "../Assets/Profile/German_CV_ES_2023_2.png"
 import cvFile from "../Assets/Profile/German_CV_ES_2023_2.pdf"
+import mycvEN from "../Assets/Profile/German_CV_EN_2023.png"
+import cvFileEN from "../Assets/Profile/German_CV_EN_2023.pdf"
 import DownloadButton from "./DownloadButton";
 
 export const About = (props) => {
@@ -92,8 +94,8 @@ export const About = (props) => {
                       ✕
                     </label>
                      
-                      <img alt='my cv' src={mycv}/>
-                      <DownloadButton file={cvFile}/>
+                      <img alt='my cv' src={lenguage === "EN" ? mycvEN : mycv }/>
+                      <DownloadButton file={lenguage ==="EN"? cvFileEN : cvFile}/>
                     
                   </div>
                 </div>
