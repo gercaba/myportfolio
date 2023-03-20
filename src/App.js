@@ -6,9 +6,6 @@ import {Projects} from './Components/Projects';
 import {Skills} from './Components/Skills';
 import {GeneralContextProvider } from './Context/GeneralContext';
 
-
-//https://www.freecodecamp.org/espanol/news/como-crear-un-portafolio-web-con-react/
-
 function App() {
   return (
     <main >
@@ -18,7 +15,6 @@ function App() {
       <Projects/>
       <Skills/>
       <Contact/>
-      
 </GeneralContextProvider>
 
     </main>

@@ -7,7 +7,6 @@ export const Contact = () => {
 
   const {darkMode, lenguage} = useGeneralContext();
 
-  //Para enviar EmailJS
 
   return (
     <section id="contact" className={`relative flex flex-col justify-items-center ${darkMode ? "bg-gray-900 body-font" : "bg-green-200"}`}>
@@ -19,9 +18,6 @@ export const Contact = () => {
             
             title="map"
             className="w-full"
-            /* frameBorder={0}
-            marginHeight={0}
-            marginWidth={0} */
             style={{ filter: "opacity(0.9)" }}
             src="https://www.google.com/maps/embed/v1/place?q=Barcelona,+España&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
           />

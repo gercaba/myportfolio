@@ -29,11 +29,11 @@ export const About = (props) => {
             }`}
           >
             {lenguage === "ES"
-              ? "Hola, soy Germán"
-              : "Hello, my name is Germán"}
+              ? "Encantado!, soy Germán"
+              : "Hi!!, my name is Germán"}
           </h1>
           <h2
-            className={`title-font font-Lato sm:text-2xl text-3xl mb-4 font-medium  ${
+            className={`title-font font-Lato sm:text-2xl text-2xl mb-4 font-medium  ${
               darkMode ? "text-white" : "text-stone-900"
             }`}
           >
@@ -52,6 +52,16 @@ export const About = (props) => {
             {lenguage === "ES"
               ? "Empezando pero esperando que nunca se acabe"
               : "Just starting but hoping it never ends"}
+          </p>
+
+          <p
+            className={`italic font-Lato mb-8 leading-relaxed  ${
+              darkMode ? "text-white" : "text-stone-600"
+            }`}
+          >
+            {lenguage === "ES"
+              ? "Abandonando la zona de confort para perseguir la realización personal."
+              : "Leaving the comfort zone to pursue personal fulfillment."}
           </p>
           <div className="flex flex-row">
             <div className="flex justify-center justify-items-center mr-6">
