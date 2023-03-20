@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.f3392fcf.css",
-    "main.js": "/myportfolio/static/js/main.06a39a9e.js",
+    "main.js": "/myportfolio/static/js/main.c1e59506.js",
     "static/js/787.1f11dfe9.chunk.js": "/myportfolio/static/js/787.1f11dfe9.chunk.js",
     "static/media/portfolioPicture.jpg": "/myportfolio/static/media/portfolioPicture.38f80b43a103fccca1b4.jpg",
     "static/media/profilePicture-small.jpeg": "/myportfolio/static/media/profilePicture-small.dd1c638c70a098f96f6c.jpeg",
@@ -11,6 +11,7 @@
     "static/media/German_CV_EN_2023_2.pdf": "/myportfolio/static/media/German_CV_EN_2023_2.b467962c0ed16f6ea427.pdf",
     "static/media/German_CV_ES_2023_2.pdf": "/myportfolio/static/media/German_CV_ES_2023_2.1c3f42afb5f3ce605c50.pdf",
     "static/media/calculatorHTML.png": "/myportfolio/static/media/calculatorHTML.183e2c3b18c5bdb28163.png",
+    "static/media/todo.png": "/myportfolio/static/media/todo.ee46c3b37df5434457e9.png",
     "static/media/roundProfileSmall.png": "/myportfolio/static/media/roundProfileSmall.a133b6bf52e6ac0b46f4.png",
     "static/media/html-logo.png": "/myportfolio/static/media/html-logo.f3aa7827cd5160f3fc1c.png",
     "static/media/moongose-logo.png": "/myportfolio/static/media/moongose-logo.998152e4bc5fdd366c2c.png",
@@ -23,11 +24,11 @@
     "static/media/socket-logo.png": "/myportfolio/static/media/socket-logo.07be0531efc928c7278d.png",
     "index.html": "/myportfolio/index.html",
     "main.f3392fcf.css.map": "/myportfolio/static/css/main.f3392fcf.css.map",
-    "main.06a39a9e.js.map": "/myportfolio/static/js/main.06a39a9e.js.map",
+    "main.c1e59506.js.map": "/myportfolio/static/js/main.c1e59506.js.map",
     "787.1f11dfe9.chunk.js.map": "/myportfolio/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f3392fcf.css",
-    "static/js/main.06a39a9e.js"
+    "static/js/main.c1e59506.js"
   ]
 }
