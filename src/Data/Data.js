@@ -47,8 +47,8 @@ export const projects = [
       subtitle: "Backend + Frontend",
       subtitleES:"Backend + Frontend",
       description:
-      "Developed as a challenge during BootCamp that includes end-to-end development. Necessary to pull up Docker.",
-      descriptionES:"Desarrollada como reto durante el BootCamp que incluye un desarrollo integral. Necesario levantar el Docker.",
+      "Developed as a challenge during BootCamp that includes end-to-end development.",
+      descriptionES:"Desarrollada como reto durante el BootCamp que incluye un desarrollo integral.",
       image: todo,
       link: "https://github.com/gercaba/todo",
     },
