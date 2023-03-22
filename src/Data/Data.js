@@ -12,6 +12,7 @@ import moongoseLogo from "../Assets/Logos/moongose-logo.png"
 import tailwindLogo from "../Assets/Logos/tailwind-logo.png"
 import dockerLogo from "../Assets/Logos/docker-logo.png"
 import todo from "../Assets/Projects/todo.png"
+import botTelegram from "../Assets/Projects/botTelegram.png"
 
 export const projects = [
     {
@@ -51,6 +52,16 @@ export const projects = [
       descriptionES:"Desarrollada como reto durante el BootCamp que incluye un desarrollo integral.",
       image: todo,
       link: "https://github.com/gercaba/todo",
+    },
+    {
+      title: "Telegram Bot",
+      subtitle: "Developed at the bootcamp hackathon",
+      subtitleES:"Desarrollado en la hackathon del bootcamp",
+      description:
+      "Project done at the Nuclio hackathon that aimed to design a Telegram bot and a web page to be able to order food based on a variety of menu and manage them (pending | done). The project was done with a partner and we achieved 100% of the goal.",
+      descriptionES:"Proyecto realizado en la hackathon de Nuclio que tenía como objetivo diseñar un bot de Telegram y una página web para poder pedir pedidos de comida en función de una variedad de menú y gestionar los mismos (pendiente | realizado). El proyecto fue realizado con un compañero y conseguimos el 100% del objetivo.",
+      image: botTelegram,
+      link: "https://github.com/gercaba/hackathon-telegramBot",
     },
    ];
 
