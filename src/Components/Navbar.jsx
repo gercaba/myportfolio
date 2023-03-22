@@ -13,7 +13,7 @@ export const Navbar = () => {
     <div>
       <div
         className={`navbar  fixed z-50 ${
-          darkMode ? "bg-base-200/95" : "bg-green-300/95"
+          darkMode ? "bg-[#242934]/95" : "bg-green-300/95"
         }`}
       >
         <div className="navbar-start">

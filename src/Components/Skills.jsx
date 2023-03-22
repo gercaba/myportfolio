@@ -7,7 +7,7 @@ export const Skills = () => {
   const { darkMode, lenguage } = useGeneralContext();
 
   return (
-    <section id="skills" className={`${!darkMode && "bg-green-100"}`}>
+    <section id="skills" className={`${darkMode ? "bg-[#2A303C]" :"bg-green-100"}`}>
       <div className="container px-5 pb-10 mx-auto">
         <div className="text-center mb-20">
           <CiMedal

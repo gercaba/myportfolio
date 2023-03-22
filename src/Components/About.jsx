@@ -16,7 +16,7 @@ export const About = (props) => {
   console.log("lenguage", lenguage);
 
   return (
-    <section id="about" className={`${!darkMode && "bg-green-100"}`}>
+    <section id="about" className={`${darkMode ? "bg-[#2A303C]" :"bg-green-100"}`}>
       <div
         className={`container mx-auto flex px-10 py-20 md:flex-row flex-col items-center ${
           !darkMode && ""
