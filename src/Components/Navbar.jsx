@@ -115,7 +115,7 @@ export const Navbar = () => {
             </div>
           </label>
           <select
-            className="select font-Lato w-20 ml-6 max-w-xs border-none text-white"
+            className="select font-Lato w-20 ml-6 max-w-xs border-none bg-[#2A303C] text-white"
             defaultValue="EN"
             onChange={handleOnChange}
           >
