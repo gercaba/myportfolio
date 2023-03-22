@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.f3392fcf.css",
-    "main.js": "/myportfolio/static/js/main.0a3741a5.js",
+    "main.css": "/myportfolio/static/css/main.e1e904c7.css",
+    "main.js": "/myportfolio/static/js/main.9a5e3936.js",
     "static/js/787.1f11dfe9.chunk.js": "/myportfolio/static/js/787.1f11dfe9.chunk.js",
     "static/media/portfolioPicture.jpg": "/myportfolio/static/media/portfolioPicture.38f80b43a103fccca1b4.jpg",
     "static/media/profilePicture-small.jpeg": "/myportfolio/static/media/profilePicture-small.dd1c638c70a098f96f6c.jpeg",
@@ -23,12 +23,12 @@
     "static/media/express-logo.png": "/myportfolio/static/media/express-logo.39a0f4c3d981885c64f8.png",
     "static/media/socket-logo.png": "/myportfolio/static/media/socket-logo.07be0531efc928c7278d.png",
     "index.html": "/myportfolio/index.html",
-    "main.f3392fcf.css.map": "/myportfolio/static/css/main.f3392fcf.css.map",
-    "main.0a3741a5.js.map": "/myportfolio/static/js/main.0a3741a5.js.map",
+    "main.e1e904c7.css.map": "/myportfolio/static/css/main.e1e904c7.css.map",
+    "main.9a5e3936.js.map": "/myportfolio/static/js/main.9a5e3936.js.map",
     "787.1f11dfe9.chunk.js.map": "/myportfolio/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3392fcf.css",
-    "static/js/main.0a3741a5.js"
+    "static/css/main.e1e904c7.css",
+    "static/js/main.9a5e3936.js"
   ]
 }
