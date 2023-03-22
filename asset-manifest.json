@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.e1e904c7.css",
-    "main.js": "/myportfolio/static/js/main.cb9e4e0b.js",
+    "main.js": "/myportfolio/static/js/main.6903f8fc.js",
     "static/js/787.1f11dfe9.chunk.js": "/myportfolio/static/js/787.1f11dfe9.chunk.js",
     "static/media/portfolioPicture.jpg": "/myportfolio/static/media/portfolioPicture.38f80b43a103fccca1b4.jpg",
     "static/media/profilePicture-small.jpeg": "/myportfolio/static/media/profilePicture-small.dd1c638c70a098f96f6c.jpeg",
@@ -13,6 +13,7 @@
     "static/media/calculatorHTML.png": "/myportfolio/static/media/calculatorHTML.183e2c3b18c5bdb28163.png",
     "static/media/todo.png": "/myportfolio/static/media/todo.ee46c3b37df5434457e9.png",
     "static/media/roundProfileSmall.png": "/myportfolio/static/media/roundProfileSmall.a133b6bf52e6ac0b46f4.png",
+    "static/media/botTelegram.png": "/myportfolio/static/media/botTelegram.337077b7c581811419b1.png",
     "static/media/html-logo.png": "/myportfolio/static/media/html-logo.f3aa7827cd5160f3fc1c.png",
     "static/media/moongose-logo.png": "/myportfolio/static/media/moongose-logo.998152e4bc5fdd366c2c.png",
     "static/media/react-logo.png": "/myportfolio/static/media/react-logo.80045de70681e3171446.png",
@@ -24,11 +25,11 @@
     "static/media/socket-logo.png": "/myportfolio/static/media/socket-logo.07be0531efc928c7278d.png",
     "index.html": "/myportfolio/index.html",
     "main.e1e904c7.css.map": "/myportfolio/static/css/main.e1e904c7.css.map",
-    "main.cb9e4e0b.js.map": "/myportfolio/static/js/main.cb9e4e0b.js.map",
+    "main.6903f8fc.js.map": "/myportfolio/static/js/main.6903f8fc.js.map",
     "787.1f11dfe9.chunk.js.map": "/myportfolio/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e1e904c7.css",
-    "static/js/main.cb9e4e0b.js"
+    "static/js/main.6903f8fc.js"
   ]
 }
