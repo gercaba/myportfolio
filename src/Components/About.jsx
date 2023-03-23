@@ -5,10 +5,10 @@ import linkedinLogoBlack from "../Assets/Icons/linkedinBlack.png";
 import linkedinLogoWhite from "../Assets/Icons/linkedinWhite.png";
 import gitLogoBlack from "../Assets/Icons/gitBlack.png";
 import gitLogoWhite from "../Assets/Icons/gitWhite.png";
-import mycv from "../Assets/Profile/German_CV_ES_2023_2.png"
-import cvFile from "../Assets/Profile/German_CV_ES_2023_2.pdf"
-import mycvEN from "../Assets/Profile/German_CV_EN_2023_2.png"
-import cvFileEN from "../Assets/Profile/German_CV_EN_2023_2.pdf"
+import mycv from "../Assets/Profile/German_CV_ES_2023_Portfolio.png"
+import cvFile from "../Assets/Profile/German_CV_ES_2023_Portfolio.pdf"
+import mycvEN from "../Assets/Profile/German_CV_EN_2023_Portfolio.png"
+import cvFileEN from "../Assets/Profile/German_CV_EN_2023_Portfolio.pdf"
 import DownloadButton from "./DownloadButton";
 
 export const About = (props) => {
