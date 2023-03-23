@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.e1e904c7.css",
-    "main.js": "/myportfolio/static/js/main.f8c1827e.js",
+    "main.js": "/myportfolio/static/js/main.b377a2d9.js",
     "static/js/787.1f11dfe9.chunk.js": "/myportfolio/static/js/787.1f11dfe9.chunk.js",
     "static/media/portfolioPicture.jpg": "/myportfolio/static/media/portfolioPicture.38f80b43a103fccca1b4.jpg",
     "static/media/profilePicture-small.jpeg": "/myportfolio/static/media/profilePicture-small.dd1c638c70a098f96f6c.jpeg",
-    "static/media/German_CV_ES_2023_2.png": "/myportfolio/static/media/German_CV_ES_2023_2.d2987138aa9c298efb0d.png",
-    "static/media/German_CV_EN_2023_2.png": "/myportfolio/static/media/German_CV_EN_2023_2.10a3b7b753950f9aee9f.png",
+    "static/media/German_CV_ES_2023_Portfolio.png": "/myportfolio/static/media/German_CV_ES_2023_Portfolio.42237fe924a841d0c5b2.png",
+    "static/media/German_CV_EN_2023_Portfolio.png": "/myportfolio/static/media/German_CV_EN_2023_Portfolio.cce0145d883561133c31.png",
     "static/media/chatPage.png": "/myportfolio/static/media/chatPage.224f9b5d1fd59f0a8c4e.png",
-    "static/media/German_CV_EN_2023_2.pdf": "/myportfolio/static/media/German_CV_EN_2023_2.b467962c0ed16f6ea427.pdf",
-    "static/media/German_CV_ES_2023_2.pdf": "/myportfolio/static/media/German_CV_ES_2023_2.1c3f42afb5f3ce605c50.pdf",
+    "static/media/German_CV_ES_2023_Portfolio.pdf": "/myportfolio/static/media/German_CV_ES_2023_Portfolio.d663c2170dfde97d1878.pdf",
+    "static/media/German_CV_EN_2023_Portfolio.pdf": "/myportfolio/static/media/German_CV_EN_2023_Portfolio.061a078771ea28863277.pdf",
     "static/media/calculatorHTML.png": "/myportfolio/static/media/calculatorHTML.183e2c3b18c5bdb28163.png",
     "static/media/todo.png": "/myportfolio/static/media/todo.ee46c3b37df5434457e9.png",
     "static/media/roundProfileSmall.png": "/myportfolio/static/media/roundProfileSmall.a133b6bf52e6ac0b46f4.png",
@@ -25,11 +25,11 @@
     "static/media/socket-logo.png": "/myportfolio/static/media/socket-logo.07be0531efc928c7278d.png",
     "index.html": "/myportfolio/index.html",
     "main.e1e904c7.css.map": "/myportfolio/static/css/main.e1e904c7.css.map",
-    "main.f8c1827e.js.map": "/myportfolio/static/js/main.f8c1827e.js.map",
+    "main.b377a2d9.js.map": "/myportfolio/static/js/main.b377a2d9.js.map",
     "787.1f11dfe9.chunk.js.map": "/myportfolio/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e1e904c7.css",
-    "static/js/main.f8c1827e.js"
+    "static/js/main.b377a2d9.js"
   ]
 }
