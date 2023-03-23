@@ -38,8 +38,8 @@ export const projects = [
       subtitle: "React portfolio",
       subtitleES:"Portfolio en React",
       description:
-      "PortFolio develope on react using Context for darkMode and lenguage.",
-      descriptionES:"Desarrollando haciendo uso de un Contexto para el idioma y el tema oscuro.",
+      "PortFolio develope on react using Context for darkMode and lenguage. Also with Tailwind and DaisyUI",
+      descriptionES:"Desarrollando haciendo uso de un Contexto para el idioma y el tema oscuro. También con Tailwind y DaisyUI",
       image: portfolioPicture,
       link: "https://github.com/gercaba/portofolio",
     },
