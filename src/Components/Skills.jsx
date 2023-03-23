@@ -28,8 +28,8 @@ export const Skills = () => {
             }`}
           >
             {lenguage === "ES"
-              ? "A lo largo del BootCamp en Nuclio Digital School he tenido la oportunidad de desarrollar los diferentes proyectos usando las siguientes tecnologías, librerías, entornos o lenguajes de desarollo."
-              : "Throughout the BootCamp at Nuclio Digital School I have had the opportunity to develop different projects using the following technologies, libraries, environments or development languages."}
+              ? "A lo largo del BootCamp en Nuclio Digital School he tenido la oportunidad de desarrollar los diferentes proyectos usando las siguientes tecnologías, librerías, entornos y lenguajes de desarollo."
+              : "Throughout the BootCamp at Nuclio Digital School I had the opportunity to develop different projects using the following technologies, libraries, environments and development languages."}
           </p>
         </div>
         <div className="flex h-full flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">

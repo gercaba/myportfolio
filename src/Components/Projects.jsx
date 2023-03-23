@@ -22,7 +22,7 @@ export const Projects = () =>{
           {lenguage === 'ES' ?
            "Durante el BootCamp realizamos diferentes retos de corto alcance en tiempo que permitieron afizanzar los conocimientos para poder realizar el proyecto final que es la realización de un Clon de Slack."
            :
-           "During the BootCamp we carried out different short-range challenges in time that allowed us to consolidate our knowledge to be able to carry out the final project, which is the creation of a Slack Clone."}
+           "During the BootCamp we carried out different short-range challenges on time that allowed us to consolidate our knowledge in order to carry out the final project, which is the creation of a Slack Clone."}
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
